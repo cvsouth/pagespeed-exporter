@@ -55,7 +55,7 @@ foreach($audits as $audit_key => $audit) {
     echo '# TYPE ' . $audit_key . ' gauge' . "\n";
     foreach($audit as $strategy_name => $strategy) {
         foreach($strategy as $url => $metric) {
-            echo 'pagespeed_' . $audit_key . '{url="' . $url . '",platform="' . $strategy_name . '"} ' . $metric['value'] . "\n";
+            echo 'pagespeed_' . $audit_key . '{instance="' . $url . '",platform="' . $strategy_name . '"} ' . $metric['value'] . "\n";
         }
     }
 }

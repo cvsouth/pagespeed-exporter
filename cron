@@ -1,0 +1,2 @@
+* * * * * wget "https://www.googleapis.com/pagespeedonline/v5/runPagespeed?url=https://developers.google.com&strategy=desktop" -O desktop.json
+* * * * * wget "https://www.googleapis.com/pagespeedonline/v5/runPagespeed?url=https://developers.google.com&strategy=mobile" -O mobile.json
