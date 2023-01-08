@@ -1,0 +1,15 @@
+{
+    "autoload": {
+        "psr-4": {
+            "Exporters\\Pagespeed\\": "public/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Colin South",
+            "email": "contact@colinsouth.com"
+        }
+    ],
+    "require": {
+    }
+}
